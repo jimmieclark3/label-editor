@@ -1,76 +1,36 @@
 {
-	"MARKER": [
-		{
-			"name": "Marker",
-			"description": "",
-			"type": "marker",
-			"icon": {
-				"prefix": "fas",
-				"name": "map-marker-alt"
-			},
-			"option": {
-				"type": "i-text",
-				"text": "\uf3c5",
-				"fontFamily": "Font Awesome 5 Free",
-				"fontWeight": 900,
-				"fontSize": 60,
-				"width": 30,
-				"height": 30,
-				"editable": false,
-				"name": "New marker"
-			}
-		}
-	],
-	"TEXT": [
-		{
-			"name": "Text",
-			"description": "",
-			"type": "text",
-			"icon": {
-				"prefix": "fas",
-				"name": "font"
-			},
-			"option": {
-				"type": "textbox",
-				"text": "",
-				"width": 60,
-				"height": 30,
-				"fontSize": 32,
-				"name": "New text"
-			}
-		}
-	],
-	"IMAGE": [
-		{
-			"name": "Image",
-			"description": "",
-			"type": "image",
-			"icon": {
-				"prefix": "fas",
-				"name": "image"
-			},
-			"option": {
-				"type": "image",
-				"name": "New image",
-				"src": "./images/sample/transparentBg.png"
-			}
-		},
-		{
-			"name": "GIF",
-			"description": "",
-			"type": "gif",
-			"icon": {
-				"prefix": "fas",
-				"name": "image"
-			},
-			"option": {
-				"type": "gif",
-				"width": 400,
-				"height": 400,
-				"name": "New gif",
-				"src": ""
-			}
-		}
+	"ELEMENTS": [
+        {
+            "name": "Text",
+            "description": "",
+            "type": "text",
+            "icon": {
+                "prefix": "fas",
+                "name": "font"
+            },
+            "option": {
+                "type": "textbox",
+                "text": "new text",
+                "width": 60,
+                "height": 30,
+                "fontSize": 32,
+                "name": "New text"
+            }
+        },
+        {
+            "name": "Image",
+            "description": "",
+            "type": "image",
+            "icon": {
+                "prefix": "fas",
+                "name": "image"
+            },
+            "option": {
+                "type": "image",
+                "name": "New image",
+                "src": "./images/sample/transparentBg.png"
+            }
+        }
 	],
 	"SHAPE": [
 		{
@@ -174,75 +134,6 @@
 			"option": {
 				"type": "arrow",
 				"name": "New arrow"
-			}
-		}
-	],
-	"ELEMENT": [
-		{
-			"name": "Chart",
-			"description": "",
-			"type": "element",
-			"icon": {
-				"prefix": "fas",
-				"name": "chart-line"
-			},
-			"option": {
-				"superType": "element",
-				"type": "chart",
-				"name": "New chart",
-				"width": 356,
-				"height": 356
-			}
-		},
-		{
-			"name": "Element",
-			"description": "",
-			"type": "element",
-			"icon": {
-				"prefix": "fab",
-				"name": "html5"
-			},
-			"option": {
-				"superType": "element",
-				"type": "element",
-				"width": 480,
-				"height": 270,
-				"name": "New element"
-			}
-		},
-		{
-			"name": "Iframe",
-			"description": "",
-			"type": "element",
-			"icon": {
-				"prefix": "fas",
-				"name": "window-maximize"
-			},
-			"option": {
-				"superType": "element",
-				"type": "iframe",
-				"width": 480,
-				"height": 270,
-				"name": "New iframe"
-			}
-		},
-		{
-			"name": "Video",
-			"description": "",
-			"type": "element",
-			"icon": {
-				"prefix": "fab",
-				"name": "youtube"
-			},
-			"option": {
-				"superType": "element",
-				"type": "video",
-				"width": 480,
-				"height": 270,
-				"name": "New video",
-				"autoplay": true,
-				"muted": true,
-				"loop": true
 			}
 		}
 	],
